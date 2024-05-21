@@ -1,0 +1,12 @@
+_element_key,_element_name,_element_type,_list_child_element_keys
+da_dbh,da_dbh,number,[]
+da_species,da_species,string,[]
+da_tag,da_tag,string,[]
+date,date,string,[]
+densiometer,densiometer,integer,[]
+empty_cells,empty_cells,integer,[]
+notes,notes,string,[]
+percent_cover,percent_cover,integer,[]
+percent_moss,percent_moss,integer,[]
+personnel,personnel,string,[]
+plot,plot,string,[]

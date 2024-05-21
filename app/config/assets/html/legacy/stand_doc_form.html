@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="libs/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  <link href="css/main.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="commonDefinitions.js"></script>
+  <script type="text/javascript" src="libs/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="libs/jquery-migrate-3.0.0.js"></script>
+  <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../system/js/odkCommon.js"></script>
+  <script type="text/javascript" src="../../system/js/odkData.js"></script>
+  <script type="text/javascript" src="../../system/tables/js/odkTables.js"></script>
+  <script type="text/javascript" src="js/Utils.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+
+  <script type="text/javascript" src="StaticData.js"></script>
+</head>
+
+<body id="main">
+
+  <div class="container">
+    <form data-table="stand_doc" novalidate>
+
+      <h3 class="mb-0">Stand Documentation Form</h3>
+
+      <div class="card" id="card-tree-info">
+        <div class="card-header">Stand info</div>
+        <div class="card-body">
+
+          <div class="form-group">
+            <label for="plot">Stand</label>
+            <input class="form-control" name="plot" id="plot" data-prev-action="replace" readonly>
+          </div>
+          <div class="form-group">
+            <label for="date">Update directions</label>
+            <textarea class="form-control" name="date" id="date"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="da_tag">Disturbance</label>
+            <textarea class="form-control" name="da_tag" id="da_tag"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="da_species">Plot posts</label>
+            <textarea class="form-control" name="da_species" id="da_species"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="da_dbh">Hours worked</label>
+            <textarea class="form-control" name="da_dbh" id="da_dbh"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="empty_cells">Estimated ingrowth</label>
+            <textarea class="form-control" name="empty_cells" id="empty_cells"></textarea>
+          </div>
+            <div class="form-group">
+                <label for="percent_cover">percent_cover</label>
+                <textarea class="form-control" name="percent_cover" id="percent_cover"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="percent_moss">percent_moss</label>
+                <textarea class="form-control" name="percent_moss" id="percent_moss"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="densiometer">densiometer</label>
+                <textarea class="form-control" name="densiometer" id="densiometer"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="personnel">personnel</label>
+                <textarea class="form-control" name="personnel" id="personnel"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="notes">notes</label>
+                <textarea class="form-control" name="notes" id="notes"></textarea>
+            </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button onClick="odkCommon.closeWindow(0, null)" class="btn btn-danger">Back</button>
+      <!-- <button onClick="window.history.back()" class="btn btn-danger">Cancel</button> -->
+      <!-- <a class="btn btn-danger" href="./index.html" role="button">Cancel</a> -->
+    </form>
+  </div>
+
+</body>
+
+</html>

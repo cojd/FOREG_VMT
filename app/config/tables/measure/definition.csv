@@ -1,0 +1,12 @@
+_element_key,_element_name,_element_type,_list_child_element_keys
+TreeID,TreeID,string,[]
+cell,cell,string,[]
+comment_custom,comment_custom,string,[]
+easting,easting,integer,[]
+height,height,number,[]
+northing,northing,integer,[]
+plot,plot,integer,[]
+species,species,string,[]
+stand,stand,string,[]
+status,status,integer,[]
+tag,tag,string,[]

@@ -1,0 +1,8 @@
+_partition,_aspect,_key,_type,_value
+Column,herb_species,displayChoicesList,object,"[{""choice_list_name"":""HerbSpeciesList"",""data_value"":""LIBO"",""display"":{""title"":{""text"":""Libo - Linea borealis (Twinflower)""}},""_row_num"":8},{""choice_list_name"":""HerbSpeciesList"",""data_value"":""OXOR"",""display"":{""title"":{""text"":""ABCO - Oxalis oregona (idk common name)""}},""_row_num"":9},{""choice_list_name"":""HerbSpeciesList"",""data_value"":""CHUM"",""display"":{""title"":{""text"":""CHUM - the good ol' chum""}},""_row_num"":10}]"
+FormType,default,FormType.formType,string,SURVEY
+SurveyUtil,default,SurveyUtil.formId,string,herbs
+Table,default,defaultViewType,string,LIST
+Table,default,detailViewFileName,string,config/assets/html/form.html
+Table,default,displayName,object,"{""text"":""Herbs""}"
+Table,default,listViewFileName,string,config/tables/stand_doc/html/stand_doc_list.html

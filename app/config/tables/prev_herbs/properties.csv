@@ -1,0 +1,6 @@
+_partition,_aspect,_key,_type,_value
+Column,HerbSpecies,displayChoicesList,object,"[{""choice_list_name"":""HerbSpeciesList"",""data_value"":""LIBO"",""display"":{""title"":{""text"":""LIBO""}},""_row_num"":82},{""choice_list_name"":""HerbSpeciesList"",""data_value"":""OXOR"",""display"":{""title"":{""text"":""OXOR""}},""_row_num"":83}]"
+FormType,default,FormType.formType,string,SURVEY
+SurveyUtil,default,SurveyUtil.formId,string,prev_herbs
+Table,default,defaultViewType,string,SPREADSHEET
+Table,default,displayName,object,"{""text"":""Previous herb data""}"
